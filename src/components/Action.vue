@@ -32,8 +32,8 @@
     </Modal>
   </teleport>
 </template>
-  
-  <script setup>
+
+<script setup>
 import { ref, defineEmits } from "vue";
 import Modal from "./Modal.vue";
 
@@ -60,8 +60,8 @@ const submit = () => {
   movementType.value = "Ingreso";
 };
 </script>
-  
-  <style scoped>
+
+<style scoped>
 button {
   color: white;
   font-size: 1.25rem;

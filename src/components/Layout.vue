@@ -14,13 +14,13 @@
     </div>
   </div>
 </template>
-  
-  <script setup>
+
+<script setup>
 import { ref } from "vue";
 const showMovements = ref(false);
 </script>
-  
-  <style scoped>
+
+<style scoped>
 .header,
 .resume,
 .movements {
